@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaspar Deutsch • Développeur</title>
+    <link rel="stylesheet" href="styles/style_index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.17/dist/lenis.css">
+
+</head>
+
+<body>
+    <header class="nav">
+        <a href="#home" class="nav-link">HOME</a>
+        <a href="#about" class="nav-link">À PROPOS</a>
+        <a href="#home" class="nav-logo"><img src="images/Logo 2.svg" alt=""></a>
+        <a href="#projets" class="nav-link">PROJETS</a>
+        <a href="#contact" class="nav-link">CONTACT</a>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-filter"></div>
+
+        <div class="hero-layout">
+            <div class="hero-titles">
+                <h1>Développeur</h1>
+                <h1>Créatif.</h1>
+            </div>
+
+            <p class="hero-description">
+                <strong>Développeur Web</strong> et Mobile, je transforme des idées <strong>créatives</strong> en
+                <strong>expériences</strong> numériques concrètes.
+            </p>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="section-layout">
+            <h2 class="section-title">À propos</h2>
+
+            <div class="section-about">
+                <div class="card-about">
+                    <p>Salut, moi c'est <strong>Gaspar</strong>. Étudiant en première année de Bachelor
+                        <strong>Développeur Web</strong> à Annecy, je suis passionné par le développement web et la
+                        création numérique. J'aime comprendre comment les choses fonctionnent, expérimenter de nouvelles
+                        choses et transformer des idées en projets web concrets.
+                    </p>
+
+                    <div class="about-tags">
+                        <span class="tag-about">HTML / CSS / JS</span>
+                        <span class="tag-about">Montage Vidéo</span>
+                    </div>
+                </div>
+
+                <div class="grid-2">
+                    <div class="card-about"></div>
+                    <div class="card-about"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projets">
+        <div class="section-layout">
+            <h2 class="section-title">Projets</h2>
+
+            <div class="section-projets">
+                <div class="card-projets">
+                    <a href="scripts/takumanga.html">
+                        <div class="card-img bg-takumanga">
+                            <img src="images/page_home_takumanga.png" alt="">
+                        </div>
+
+                        <div class="card-info">
+                            <h3 class="card-title">TAKUMANGA</h3>
+
+                            <div class="card-tags">
+                                <span class="tag-projet">HTML</span>
+                                <span class="tag-projet">CSS</span>
+                                <span class="tag-projet">JS</span>
+                            </div>
+
+                            <p class="card-date">Juin 2023</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-projets">
+                    <a href="#projets">
+                        <div class="card-img bg-arcaday">
+                            <img src="images/affiche_puissance4.jpg" alt="">
+                        </div>
+
+                        <div class="card-info">
+                            <h3 class="card-title">ARCADAY</h3>
+
+                            <div class="card-tags">
+                                <span class="tag-projet">HTML</span>
+                                <span class="tag-projet">CSS</span>
+                                <span class="tag-projet">JS</span>
+                            </div>
+
+                            <p class="card-date">Nomvembre 2025</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-projets">
+                    <a href="#projets">
+                        <div class="card-img bg-moviesdb">
+                            <img src="images/page_home_moviesDB.png" alt="">
+                        </div>
+
+                        <div class="card-info">
+                            <h3 class="card-title">MOVIES DB</h3>
+
+                            <div class="card-tags">
+                                <span class="tag-projet">HTML</span>
+                                <span class="tag-projet">CSS</span>
+                                <span class="tag-projet">JS</span>
+                                <span class="tag-projet">API</span>
+                            </div>
+
+                            <p class="card-date">Décembre 2025</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="section-layout">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="section-contact">
+                <form class="contact-form">
+                    <div class="name-row">
+                        <div class="form-group">
+                            <label for="first-name">PRÉNOM</label>
+                            <input class="first-name" type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">NOM</label>
+                            <input class="last-name" type="text" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input class="email" type="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">MESSAGE</label>
+                        <textarea class="message" rows="5" required></textarea>
+                    </div>
+
+                    <button class="btn" type="submit">
+                        <div class="btn-content">
+                            <span class="send-text">ENVOYER</span>
+                            <span class="send-icon"></span>
+                        </div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

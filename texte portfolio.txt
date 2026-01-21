@@ -1,0 +1,18 @@
+FONT :
+
+
+font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
+font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: medium;
+
+
+« J’ai utilisé une hero section avec un background CSS et un overlay pour garantir un rendu responsive, accessible et performant. Le positionnement repose sur Flexbox et clamp() pour adapter la typographie à tous les écrans. »
+
+« J’utilise IntersectionObserver pour déclencher des animations légères au scroll sans impact sur les performances, et un scroll inertiel contrôlé pour améliorer le confort de lecture, tout en restant discret. »
