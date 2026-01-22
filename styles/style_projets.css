@@ -146,6 +146,7 @@ body {
 
 /* BOUTON */
 .btn {
+    display: inline-block;
     position: relative;
     align-self: flex-start;
     overflow: hidden;
@@ -155,6 +156,11 @@ body {
     border-radius: 50px;
     cursor: pointer;
     background-color: #1a1a1a;
+}
+
+.btn:focus-visible {
+    outline: 2px solid #000;
+    outline-offset: 4px;
 }
 
 .btn::before {
