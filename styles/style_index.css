@@ -56,7 +56,7 @@ body {
 .hero {
     position: relative;
     min-height: 100vh;
-    background-image: url("../images/Mont\ Fuji.avif");
+    background-image: url("../images/bg_mont_fuji.avif");
     background-size: cover;
     background-position: center;
 }
@@ -357,10 +357,10 @@ textarea {
     background-color: #FFF;
     transition: all 0.45s ease;
 
-    -webkit-mask: url("../images/arrow.svg") no-repeat center;
+    -webkit-mask: url("../images/svg/arrow.svg") no-repeat center;
     -webkit-mask-size: contain;
 
-    mask: url("../images/arrow.svg") no-repeat center;
+    mask: url("../images/svg/arrow.svg") no-repeat center;
     mask-size: contain;
 }
 

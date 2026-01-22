@@ -198,10 +198,10 @@ body {
     background-color: #FFF;
     transition: all 0.45s ease;
 
-    -webkit-mask: url("../images/arrow.svg") no-repeat center;
+    -webkit-mask: url("../images/svg/arrow.svg") no-repeat center;
     -webkit-mask-size: contain;
 
-    mask: url("../images/arrow.svg") no-repeat center;
+    mask: url("../images/svg/arrow.svg") no-repeat center;
     mask-size: contain;
 }
 
@@ -212,10 +212,10 @@ body {
     background-color: #FFF;
     transition: all 0.45s ease;
 
-    -webkit-mask: url("../images/reverse_arrow.svg") no-repeat center;
+    -webkit-mask: url("../images/svg/reverse_arrow.svg") no-repeat center;
     -webkit-mask-size: contain;
 
-    mask: url("../images/reverse_arrow.svg") no-repeat center;
+    mask: url("../images/svg/reverse_arrow.svg") no-repeat center;
     mask-size: contain;
 }
 
