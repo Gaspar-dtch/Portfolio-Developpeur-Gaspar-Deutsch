@@ -502,6 +502,14 @@ footer {
     .footer-right {
         text-align: left;
     }
+
+    .footer-email {
+        font-size: 1.4rem;
+    }
+
+    .footer-number {
+        font-size: 1.4rem;
+    }
 }
 
 @media (max-width: 900px) {
@@ -512,10 +520,10 @@ footer {
 
     .nav-links {
         position: fixed;
-        inset: 0;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        inset: 0;
         gap: 3rem;
         background: rgba(255, 255, 255, 0.85);
         backdrop-filter: blur(12px);
