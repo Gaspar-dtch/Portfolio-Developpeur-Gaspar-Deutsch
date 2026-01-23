@@ -108,7 +108,7 @@ body {
 
 /* TITLES */
 .hero-titles h1 {
-    font-size: clamp(3rem, 10vw, 12rem);
+    font-size: clamp(3rem, 11vw, 12rem);
     text-shadow: -8px 8px 4px rgba(0, 0, 0, 0.3);
     line-height: 1.1;
     font-family: "Jost", sans-serif;
@@ -147,7 +147,7 @@ body {
     flex-direction: column;
     gap: 3rem;
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
     align-self: center;
     gap: 2rem;
     font-family: "Inter", sans-serif;
@@ -392,20 +392,15 @@ textarea {
 
     .hero-description {
         max-width: 100%;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
-    .section-about {
-        grid-template-columns: 1fr;
-    }
-
-    .section-projets {
+    .section-about, .section-projets {
         grid-template-columns: 1fr;
     }
 
     .section-contact {
-        /* width: 100%; */
-        max-width: 300px;
+        max-width: 100%;
     }
 
     .card-img {
@@ -414,6 +409,20 @@ textarea {
 
     p {
         font-size: 1.1rem;
+    }
+
+    .btn{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .name-row{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    input, textarea{
+        font-size: 0.95rem;
     }
 }
 
