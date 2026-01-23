@@ -36,9 +36,9 @@ body {
 
 .nav-link,
 .nav-logo {
-    font-family: "Inter", sans-serif;
     color: black;
     transition: opacity 0.15s ease;
+    font-family: "Inter", sans-serif;
 }
 
 .nav-link:hover {
@@ -350,6 +350,7 @@ textarea {
     justify-content: center;
     gap: 0.6rem;
     z-index: 1;
+    font-family: "Inter", sans-serif;
 }
 
 .send-text {
@@ -365,13 +366,11 @@ textarea {
 .send-icon {
     width: 11px;
     height: 11px;
-
     background-color: #FFF;
     transition: all 0.45s ease;
 
     -webkit-mask: url("../images/svg/arrow.svg") no-repeat center;
     -webkit-mask-size: contain;
-
     mask: url("../images/svg/arrow.svg") no-repeat center;
     mask-size: contain;
 }
@@ -379,6 +378,72 @@ textarea {
 .btn:hover .send-icon {
     background-color: #1a1a1a;
     transform: translateX(2px);
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: rgba(19, 19, 19);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 9rem;
+    color: #ccc;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-email {
+    margin: 0.25rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.footer-number {
+    margin: 0.25rem 0;
+    font-size: 1.8rem;
+}
+
+.footer-number {
+    margin: 0.25rem 0;
+}
+
+.footer-title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: right;
+}
+
+.footer-links {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.link {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    gap: 0.5rem;
+    color: #ccc;
+    font-weight: 500;
+}
+
+.footer-icon {
+    width: 11px;
+    height: 11px;
+    background-color: #ccc;
+    transition: all 0.45s ease;
+
+    -webkit-mask: url("../images/svg/arrow.svg") no-repeat center;
+    -webkit-mask-size: contain;
+    mask: url("../images/svg/arrow.svg") no-repeat center;
+    mask-size: contain;
 }
 
 @media (max-width: 1024px) {
@@ -394,7 +459,8 @@ textarea {
         font-size: 1.1rem;
     }
 
-    .section-about, .section-projets {
+    .section-about,
+    .section-projets {
         grid-template-columns: 1fr;
     }
 
@@ -410,17 +476,18 @@ textarea {
         font-size: 1.1rem;
     }
 
-    .btn{
+    .btn {
         width: 100%;
         justify-content: center;
     }
 
-    .name-row{
+    .name-row {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
 
-    input, textarea{
+    input,
+    textarea {
         font-size: 0.95rem;
     }
 }
