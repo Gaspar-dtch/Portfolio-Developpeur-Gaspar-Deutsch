@@ -29,10 +29,10 @@ body {
     z-index: 10;
 }
 
-.nav-links {
+/* .nav-links {
     display: flex;
     gap: 100px;
-}
+} */
 
 .nav-link,
 .nav-logo {
@@ -90,7 +90,7 @@ body {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     min-height: calc(100vh - 75px);
     padding: 0 8vw;
     z-index: 2;
@@ -145,7 +145,6 @@ body {
 .section-contact {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
     width: 100%;
     max-width: 450px;
     align-self: center;
@@ -392,7 +391,7 @@ textarea {
 
     .hero-description {
         max-width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .section-about, .section-projets {
