@@ -29,6 +29,11 @@ body {
     z-index: 10;
 }
 
+.nav-links{
+    display: flex;
+    gap: 100px;
+}
+
 .nav-link,
 .nav-logo {
     font-family: "Inter", sans-serif;
@@ -50,6 +55,10 @@ body {
     height: 70%;
     width: auto;
     object-fit: cover;
+}
+
+.nav-toggle{
+    display: none;
 }
 
 /* SECTIONS */
@@ -401,5 +410,50 @@ textarea {
 
     p {
         font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav {
+        justify-content: space-between;
+        padding: 0 6vw;
+    }
+
+    .nav-links {
+        position: fixed;
+        inset: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(12px);
+        transform: translateY(-100%);
+        transition: transform 0.5s ease;
+        z-index: 9;
+    }
+
+    .nav-links.active {
+        transform: translateY(0);
+    }
+
+    .nav-link {
+        font-size: 2rem;
+    }
+
+    .nav-toggle {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .nav-toggle span {
+        width: 24px;
+        height: 2px;
+        background: #000;
     }
 }
