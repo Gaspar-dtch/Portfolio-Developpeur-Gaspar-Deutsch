@@ -108,7 +108,7 @@ body {
 
 /* TITLES */
 .hero-titles h1 {
-    font-size: clamp(3rem, 10vw, 12rem);
+    font-size: clamp(5rem, 12vw, 12rem);
     text-shadow: -8px 8px 4px rgba(0, 0, 0, 0.3);
     line-height: 1.1;
     font-family: "Jost", sans-serif;
@@ -120,7 +120,6 @@ body {
     font-size: clamp(3rem, 10vw, 12rem);
     font-family: "Jost", sans-serif;
     font-weight: 500;
-    font-size: 100px;
     line-height: 0.9;
 }
 
@@ -156,9 +155,9 @@ body {
 
 /* CONTENT */
 .hero-description {
-    width: 300px;
+    width: 350px;
     font-family: "Inter", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.6;
 }
 
@@ -393,7 +392,7 @@ textarea {
 
     .hero-description {
         max-width: 100%;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .section-about {
