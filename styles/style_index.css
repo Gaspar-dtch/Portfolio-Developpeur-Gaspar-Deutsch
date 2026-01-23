@@ -499,8 +499,8 @@ footer {
     }
 
     .footer-right {
-    text-align: left;
-}
+        text-align: left;
+    }
 }
 
 @media (max-width: 900px) {
