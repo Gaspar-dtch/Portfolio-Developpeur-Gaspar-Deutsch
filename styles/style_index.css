@@ -29,7 +29,7 @@ body {
     z-index: 10;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     gap: 100px;
 }
@@ -57,7 +57,7 @@ body {
     object-fit: cover;
 }
 
-.nav-toggle{
+.nav-toggle {
     display: none;
 }
 
@@ -108,7 +108,7 @@ body {
 
 /* TITLES */
 .hero-titles h1 {
-    font-size: clamp(5rem, 12vw, 12rem);
+    font-size: clamp(3rem, 10vw, 12rem);
     text-shadow: -8px 8px 4px rgba(0, 0, 0, 0.3);
     line-height: 1.1;
     font-family: "Jost", sans-serif;
@@ -117,7 +117,7 @@ body {
 
 .section-title {
     display: inline-block;
-    font-size: clamp(3rem, 10vw, 12rem);
+    font-size: clamp(4rem, 7vw, 10rem);
     font-family: "Jost", sans-serif;
     font-weight: 500;
     line-height: 0.9;
@@ -340,7 +340,7 @@ textarea {
     z-index: 0;
 }
 
-.btn:hover::before{
+.btn:hover::before {
     transform: scaleX(1);
 }
 
@@ -359,7 +359,7 @@ textarea {
     transition: color 0.45s ease;
 }
 
-.btn:hover .send-text{
+.btn:hover .send-text {
     color: #6C757D;
 }
 
@@ -401,6 +401,11 @@ textarea {
 
     .section-projets {
         grid-template-columns: 1fr;
+    }
+
+    .section-contact {
+        /* width: 100%; */
+        max-width: 300px;
     }
 
     .card-img {
