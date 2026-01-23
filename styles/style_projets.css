@@ -121,7 +121,7 @@ body {
 .about-main {
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    gap: 1.5em; 
 }
 
 .presentation {
@@ -239,6 +239,7 @@ body {
 /* FOOTER */
 footer {
     width: 100%;
+    margin-top: 10rem;
     background-color: rgba(19, 19, 19);
 }
 
@@ -246,6 +247,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
     padding: 4rem 9rem;
     color: #ccc;
     font-family: "Inter", sans-serif;
@@ -300,6 +302,19 @@ footer {
     -webkit-mask-size: contain;
     mask: url("../images/svg/arrow.svg") no-repeat center;
     mask-size: contain;
+}
+
+.gellery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.gallery-img{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
 @media (max-width: 1024px) {
