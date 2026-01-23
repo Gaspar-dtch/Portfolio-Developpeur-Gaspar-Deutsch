@@ -490,6 +490,17 @@ footer {
     textarea {
         font-size: 0.95rem;
     }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap: 3rem;
+    }
+
+    .footer-right {
+    text-align: left;
+}
 }
 
 @media (max-width: 900px) {
