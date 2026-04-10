@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <!-- Librairie -->
+    <script src="https://unpkg.com/lenis@1.3.21/dist/lenis.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.17/dist/lenis.css">
 </head>
 
@@ -25,12 +27,14 @@
 
     <section class="project-detail">
         <div class="project-layout">
-            <a href="../index.html#projets" class="btn">
-                <div class="btn-content">
-                    <span class="back-btn-icon"></span>
-                    <span class="btn-text">RETOUR</span>
-                </div>
-            </a>
+            <div class="header-nav">
+                <a href="../index.html#projets" class="btn">
+                    <div class="btn-content">
+                        <span class="back-btn-icon"></span>
+                        <span class="btn-text">RETOUR</span>
+                    </div>
+                </a>
+            </div>
 
             <div class="project-content">
                 <div class="project-header">
@@ -38,67 +42,110 @@
                     <div class="meta">
                         <img class="meta-img" src="../label.svg" alt="">
                         <span class="meta-tags">Joomla</span>
+                        <!-- <span>Site vitrine dédié à la culture manga</span> -->
                     </div>
                 </div>
+            </div>  
+
+            <div class="project-img">
+                <img class="affiche" src="../images/page_home_takumanga.png" alt="Page home de Takumanga">
             </div>
 
-            <div class="main">
-                <div class="img-main">
-                    <img class="img" src="../images/page_home_takumanga.png" alt="Page home de Takumanga">
-                    <div class="links">
+
+            <div class="content-section">
+                <div class="details-sidebar">
+                    <div class="info-block">
+                        <h2>RÔLE</h2>
+                        <span>Développeur Solo</span>
+                    </div>
+                    <div class="info-block">
+                        <h2>OUTILS</h2>
+                        <span>Joomla</span>
+                    </div>
+                    <div class="info-block">
+                        <h2>DURÉE</h2>
+                        <span>3 semaines (évolution continue)</span>
+                    </div>
+                    <div class="info-block">
+                        <h2>LIEN</h2>
+
                         <a href="https://www.takumanga.fr" class="btn" target="_blank">
                             <div class="btn-content">
-                                <span class="btn-text">Site</span>
+                                <span class="btn-text">Site web</span>
                                 <span class="btn-icon"></span>
                             </div>
                         </a>
                     </div>
                 </div>
 
-                <div class="about-main">
-                    <p class="presentation">Takumanga est un site vitrine dédié aux mangas, aux animes. Le projet a
-                        commencé pendant les cours de Sciences Numériques & Informatiques, où nous devions réaliser un
-                        site web. Le sujet m'a tout de suite accroché, et j'ai rapidement eu envie d'aller plus loin que
-                        le cadre scolaire. J'ai donc continué à développer le site en autodidacte sur mon temps libre,
-                        en l'améliorant progressivement.
+                <div class="text-content">
+                    <!-- <h2>La Genèse</h2> -->
+                    <p class="presentation">Takumanga est né d'un projet scolaire (NSI en seconde) qui est devenu une
+                        passion. Initialement un simple site web pour apprendre, je l'ai transformé en une plateforme
+                        complète lors de mon stage de seconde en immersion chez un webmaster, qui m'a permis de
+                        concrétiser mes idées grâce à Joomla.
+                    </p>
 
-                        Le projet a ensuite pris une nouvelle dimension lors de mon stage de seconde chez un webmaster,
-                        durant lequel j'ai été initié à Joomla. Même si je ne maîtrise pas encore l'outil, cette
-                        expérience m'a permis de mieux structurer le site, d'en améliorer le contenu et surtout de le
-                        mettre en ligne. C'est à ce moment-là que Takumanga est réellement né, comme un projet personnel
-                        mêlant apprentissage du web et passion pour les mangas et les animes.
+                    <!-- <h2>L'Architexture</h2> -->
+                    <!-- <ul class="presentation">
+                        <li>Actualité dynamique : Slider qui présente les mangas et animes de saison.</li>
+                        <li>Exploration : 3 catalogues distincts (Mangas, Animes, Films).</li>
+                        <li>Fiche détaillées : Données techniques (type, genre, auteur, éditeur, parution, tomes),
+                            sysnopsis et extraits visuels.</li>
+                    </ul> -->
 
+                    <p class="presentation">
                         La page d'accueil met en avant l'actualité avec deux sliders présentant les mangas et les animes
                         de la saison. Le site s'organise ensuite autour de plusieurs sections, dont trois catalogues
                         distincts dédiés aux mangas, aux animes et aux films d'animation japonais, ainsi qu'un onglet
                         regroupant mes coups de cœur, classés par genre. Les catalogues proposent une large sélection
                         d'œuvres, accessibles via des fiches dédiées permettant de consulter chaque manga ou anime
                         individuellement.
+                    </p>
 
+                    <p class="presentation">
                         Chaque fiche regroupe de nombreuses informations comme le type, les genres, l'auteur, l'éditeur,
                         l'année de parution ou encore le nombre de tomes. On y retrouve également un synopsis, des
                         éléments sur l'univers de l'œuvre, une présentation des personnages principaux, ainsi qu'un
                         aperçu visuel : des pages du manga pour les mangas, ou le générique d'introduction pour les
                         animes. L'objectif était de proposer un site à la fois informatif et accessible, pensé pour les
                         passionnés comme pour les curieux.
+                    </p>
 
+                    <!-- <h2>Résultats</h2> -->
+                    <p class="presentation">
                         Takumanga m'a permis de progresser sur le long terme, de gagner en autonomie et de mieux
                         comprendre comment faire évoluer un projet web personnel, de sa création jusqu'à sa mise en
                         ligne. C'est un projet qui reflète autant mon intérêt pour le développement web que ma passion
                         pour les mangas et la culture japonaise.</p>
+                </div>
+            </div>
 
-                    <div class="tags">
-                        <span class="tag">JOOMLA</span>
+            <div class="gellery-section">
+                <div class="gallery-grid">
+                    <div class="gallery-item2">
+                        <img src="../images/tm_home.png" alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/tm_cate_manga.png" alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/tm_cate_film.png" alt="">
+                    </div>
+                    <div class="gallery-item2">
+                        <img src="../images/tm_detail_1.png" alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/tm_detail_2.png" alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/tm_detail_3.png" alt="">
+                    </div>
+                    <div class="gallery-item2">
+                        <img src="../images/tm_cate_coup_coeur.png" alt="">
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="gellery">
-            <img class="gallery-img" src="../images/Capture d'écran 2025-03-21 230254.png" alt="">
-            <img class="gallery-img" src="../images/Capture d'écran 2025-03-22 220545.png" alt="">
-            <img class="gallery-img" src="../images/Capture d'écran 2025-03-22 220137.png" alt="">
-            <img class="gallery-img" src="../images/Capture d'écran 2025-03-22 220159.png" alt="">
         </div>
     </section>
 

@@ -1,3 +1,6 @@
+@import url(footer.css);
+@import url(reset.css);
+
 html {
     scroll-behavior: smooth;
 }
@@ -121,7 +124,7 @@ body {
     font-family: "Jost", sans-serif;
     font-weight: 500;
     line-height: 0.9;
-}
+}   
 
 /* CONTAINER */
 .section-about {
@@ -155,6 +158,7 @@ body {
 /* CONTENT */
 .hero-description {
     width: 350px;
+    text-shadow: -4px 4px 3px rgba(0, 0, 0, 0.3);
     font-family: "Inter", sans-serif;
     font-size: 1.3rem;
     line-height: 1.6;
@@ -378,72 +382,6 @@ textarea {
 .btn:hover .send-icon {
     background-color: #1a1a1a;
     transform: translateX(2px);
-}
-
-/* FOOTER */
-footer {
-    width: 100%;
-    background-color: rgba(19, 19, 19);
-}
-
-.footer-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 4rem 9rem;
-    color: #ccc;
-    font-family: "Inter", sans-serif;
-}
-
-.footer-right {
-    text-align: right;
-}
-
-.footer-email {
-    margin: 0.25rem 0;
-    font-size: 1.8rem;
-    font-weight: 700;
-}
-
-.footer-number {
-    margin: 0.25rem 0;
-    font-size: 1.8rem;
-}
-
-.footer-number {
-    margin: 0.25rem 0;
-}
-
-.footer-title {
-    margin-bottom: 1rem;
-    font-size: 2rem;
-    text-align: right;
-}
-
-.footer-links {
-    display: inline-flex;
-    flex-direction: column;
-}
-
-.link {
-    display: inline-flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    gap: 0.5rem;
-    color: #ccc;
-    font-weight: 500;
-}
-
-.footer-icon {
-    width: 11px;
-    height: 11px;
-    background-color: #ccc;
-    transition: all 0.45s ease;
-
-    -webkit-mask: url("../images/svg/arrow.svg") no-repeat center;
-    -webkit-mask-size: contain;
-    mask: url("../images/svg/arrow.svg") no-repeat center;
-    mask-size: contain;
 }
 
 @media (max-width: 1024px) {

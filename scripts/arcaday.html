@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <!-- Librairie -->
+    <script src="https://unpkg.com/lenis@1.3.21/dist/lenis.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.17/dist/lenis.css">
 </head>
 
@@ -25,27 +27,44 @@
 
     <section class="project-detail">
         <div class="project-layout">
-            <a href="../index.html#projets" class="btn">
-                <div class="btn-content">
-                    <span class="back-btn-icon"></span>
-                    <span class="btn-text">RETOUR</span>
-                </div>
-            </a>
-
-            <div class="project-content">
-                <div class="project-header">
-                    <h1 class="title">ARCADAY</h1>
-                    <div class="meta">
-                        <img class="meta-img" src="../label.svg" alt="">
-                        <span class="meta-tags">HTML, CSS, JS</span>
+            <div class="header-nav">
+                <a href="../index.html#projets" class="btn">
+                    <div class="btn-content">
+                        <span class="back-btn-icon"></span>
+                        <span class="btn-text">RETOUR</span>
                     </div>
+                </a>
+            </div>
+
+            <div class="project-header">
+                <h1 class="title">ARCADAY</h1>
+                <div class="meta">
+                    <img class="meta-img" src="../label.svg" alt="">
+                    <span class="meta-tags">HTML, CSS, JS</span>
                 </div>
             </div>
 
-            <div class="main">
-                <div class="img-main">
-                    <img class="img" src="../images/affiche_puissance4.jpg" alt="Affiche du affiche puissance 4">
-                    <div class="links">
+            <div class="project-img">
+                <img class="affiche" src="../images/affiche_puissance4.jpg" alt="Affiche du affiche puissance 4">
+            </div>
+
+            <div class="content-section">
+                <div class="details-sidebar">
+                    <div class="info-block">
+                        <h2>RÔLE</h2>
+                        <span>Développeur front</span>
+                    </div>
+                    <div class="info-block">
+                        <h2>OUTILS</h2>
+                        <span>HTML, CSS, JS & Figma</span>
+                    </div>
+                    <div class="info-block">
+                        <h2>DURÉE</h2>
+                        <span>1 semaines</span>
+                    </div>
+                    <div class="info-block">
+                        <h2>LIEN</h2>
+
                         <a href="https://arcaday-puissance4.vercel.app" class="btn" target="_blank">
                             <div class="btn-content">
                                 <span class="btn-text">Site</span>
@@ -62,33 +81,47 @@
                     </div>
                 </div>
 
-                <div class="about-main">
-                    <p class="presentation">Lors de mon premier workshop en Bachelor Développeur Web & Mobile, j'ai
-                        participé à la réalisation de plusieurs mini-jeux d'arcade, dont un Puissance 4, un Tape-Taupe,
-                        un Quiz musical et un Chi-Fu-Mi. Le but du workshop était de produire des jeux simples mais
-                        fonctionnels en un temps limité, tout en travaillant en équipe dans des conditions proches du
+                <div class="text-content">
+                    <p class="presentation">Lors de mon premier workshop en Bachelor Développeur Web & Mobile,
+                        j'ai
+                        participé à la réalisation de plusieurs mini-jeux d'arcade, dont un Puissance 4, un
+                        Tape-Taupe,
+                        un Quiz musical et un Chi-Fu-Mi. Le but du workshop était de produire des jeux simples
+                        mais
+                        fonctionnels en un temps limité, tout en travaillant en équipe dans des conditions
+                        proches du
                         réel.
 
-                        Le projet s'est fait en collaboration entre designers et développeurs, ce qui m'a permis de
+                        Le projet s'est fait en collaboration entre designers et développeurs, ce qui m'a permis
+                        de
                         découvrir une vraie organisation de travail en groupe. De mon côté, je me suis occupé du
-                        développement du Puissance 4. J'ai travaillé sur la logique du jeu, la gestion des tours des
+                        développement du Puissance 4. J'ai travaillé sur la logique du jeu, la gestion des tours
+                        des
                         joueurs, la détection des conditions de victoires ainsi que l'intégration de l'interface
-                        réalisée par les designers. Ce projet m'a permis de consolider mes bases en développement web,
-                        mais aussi de comprendre l'importance de la communication entre design et développement pour
+                        réalisée par les designers. Ce projet m'a permis de consolider mes bases en
+                        développement web,
+                        mais aussi de comprendre l'importance de la communication entre design et développement
+                        pour
                         arriver à un résultat cohérent et jouable.</p>
+                </div>
+            </div>
 
-                    <div class="tags">
-                        <span class="tag">HTML</span>
-                        <span class="tag">CSS</span>
-                        <span class="tag">JS</span>
+            <div class="gellery-section">
+                <div class="gallery-grid">
+                    <div class="gallery-item2">
+                        <img class="gallery-img" src="../images/p4_home.png" alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img class="gallery-img" src="../images/p4_game.png" alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img class="gallery-img" src="../images/p4_pause.png" alt="">
+                    </div>
+                    <div class="gallery-item2">
+                        <img class="gallery-img" src="../images/p4_victory.png" alt="">
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="gellery">
-            <img class="gallery-img" src="../images/Capture d'écran 2026-01-23 115150.png" alt="">
-            <img class="gallery-img" src="../images/Capture d'écran 2026-01-23 115214.png" alt="">
         </div>
     </section>
 
