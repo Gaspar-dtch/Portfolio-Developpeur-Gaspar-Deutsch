@@ -363,12 +363,37 @@ h2 {
         overflow: hidden;
     }
 
+    .footer-content {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 4rem 2rem;
+        gap: 3rem;
+    }
+
+    .footer-right {
+        text-align: left;
+    }
+
+    .footer-email {
+        font-size: 1.4rem;
+    }
+
+    .footer-number {
+        font-size: 1.4rem;
+    }
+
     /* .btn {
         padding: 10px 14px;
     } */
 }
 
-@media (max-width: 640px) {
+@media (max-width: 900px) {
+    .nav {
+        justify-content: space-between;
+        padding: 0 6vw;
+    }
+
     .project-layout {
         display: flex;
         flex-direction: column;
@@ -383,6 +408,7 @@ h2 {
     .details-sidebar {
         display: flex;
         flex-direction: column;
+        position: initial;
     }
 
     h1 {
