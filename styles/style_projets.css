@@ -389,21 +389,15 @@ h2 {
 }
 
 @media (max-width: 900px) {
-    .nav {
-        justify-content: space-between;
-        padding: 0 6vw;
-    }
-
     .project-layout {
         display: flex;
         flex-direction: column;
-        padding: 0 2rem;
+        /* padding: 0 2rem; */
     }
 
     .project-detail {
         padding: 2rem;
     }
-
 
     .details-sidebar {
         display: flex;
