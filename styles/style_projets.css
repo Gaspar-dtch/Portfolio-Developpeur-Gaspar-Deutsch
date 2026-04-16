@@ -56,16 +56,16 @@ body {
     object-fit: cover;
 }
 
-.project-detail {
+/* .project-detail {
     width: 100%;
     max-width: 1800px;
     margin: auto;
-}
+} */
 
 .project-layout {
     display: flex;
     flex-direction: column;
-    padding: 0 10rem;
+    padding: 0 8rem;
     /* gap: 2rem; */
     font-family: "Inter", sans-serif;
 }
@@ -337,6 +337,10 @@ h2 {
         font-size: 2.5rem;
     }
 
+    .meta {
+        margin-top: 0rem;
+    }
+
     .details-sidebar {
         display: flex;
         flex-direction: column;
@@ -392,12 +396,12 @@ h2 {
     .project-layout {
         display: flex;
         flex-direction: column;
-        /* padding: 0 2rem; */
+        padding: 0 1rem;
     }
 
-    .project-detail {
+    /* .project-detail {
         padding: 2rem;
-    }
+    } */
 
     .details-sidebar {
         display: flex;
