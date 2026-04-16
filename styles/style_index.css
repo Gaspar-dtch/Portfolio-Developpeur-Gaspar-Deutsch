@@ -192,6 +192,7 @@ body {
 
 .card-projets:hover {
     transform: translateY(-4px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
 .card-img {
