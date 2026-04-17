@@ -237,6 +237,29 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+#img-bg1{
+    position: absolute;
+    top: 42%;
+    left: 20%;
+    transform: rotate(38deg);
+    z-index: -1;
+}
+
+#img-bg2{
+    position: absolute;
+    /* width: 1000px;
+    top: -8%;
+    right: 5%; */
+    top: 10%;
+    right: 15%;
+    transform: rotate(-20deg);
+    z-index: -1;
+}
+
+/* #photo{
+    border-radius: 50px;
+} */
+
 .card-tags {
     display: flex;
     flex-wrap: wrap;
