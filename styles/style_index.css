@@ -192,9 +192,9 @@ body {
 
 #img-bg1{
     position: absolute;
-    top: 42%;
-    left: 20%;
-    transform: rotate(38deg);
+    top: 44%;
+    left: 31%;
+    transform: rotate(51deg);
     z-index: -1;
 }
 
@@ -204,7 +204,7 @@ body {
     top: -8%;
     right: 5%; */
     top: 10%;
-    right: 15%;
+    right: 10%;
     transform: rotate(-20deg);
     z-index: -1;
 }
@@ -224,7 +224,7 @@ body {
     border-radius: 50px;
     font-size: 1.1rem;
     font-weight: 600;
-    background: rgba(124, 92, 255, .15);
+    background: rgba(250, 218, 221, 1);
     border: 1px solid rgba(255, 255, 255, .08);
 }
 
