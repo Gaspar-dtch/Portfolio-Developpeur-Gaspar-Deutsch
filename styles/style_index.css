@@ -1,5 +1,5 @@
-@import url(footer.css);
 @import url(reset.css);
+@import url(global_components.css);
 
 html {
     scroll-behavior: smooth;
@@ -17,54 +17,7 @@ body {
     background-size: auto;
 }
 
-/* HEADER */
-.nav {
-    position: sticky;
-    top: 0;
-    height: 75px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(8px);
-    z-index: 10;
-}
-
-/* .nav-links {
-    display: flex;
-    gap: 100px;
-} */
-
-.nav-link,
-.nav-logo {
-    color: black;
-    transition: opacity 0.15s ease;
-    font-family: "Inter", sans-serif;
-}
-
-.nav-link:hover {
-    opacity: 0.6;
-}
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.nav-logo img {
-    height: 70%;
-    width: auto;
-    object-fit: cover;
-}
-
-.nav-toggle {
-    display: none;
-}
-
-/* SECTIONS */
+/* --- SECTIONS --- */
 .hero {
     position: relative;
     min-height: 100vh;
@@ -476,7 +429,7 @@ textarea {
 }
 
 @media (max-width: 900px) {
-    .nav {
+    #nav {
         justify-content: space-between;
         padding: 0 6vw;
     }

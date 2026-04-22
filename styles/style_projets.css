@@ -1,5 +1,5 @@
-@import url(footer.css);
 @import url(reset.css);
+@import url(global_components.css);
 
 html {
     scroll-behavior: smooth;
@@ -15,45 +15,6 @@ body {
     background-repeat: repeat;
     background-size: auto;
     color: #333333;
-}
-
-/* HEADER */
-.nav {
-    position: sticky;
-    top: 0;
-    height: 75px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    margin-bottom: 2.5rem;
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(8px);
-    z-index: 10;
-}
-
-.nav-link,
-.nav-logo {
-    font-family: "Inter", sans-serif;
-    color: black;
-    transition: opacity 0.15s ease;
-}
-
-.nav-link:hover {
-    opacity: 0.6;
-}
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.nav-logo img {
-    height: 70%;
-    width: auto;
-    object-fit: cover;
 }
 
 /* .project-detail {

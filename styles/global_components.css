@@ -1,4 +1,63 @@
-/* FOOTER */
+/*  =============================
+    HEADER 
+    ============================= */
+#nav {
+    position: sticky;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(8px);
+    z-index: 10;
+
+    transition: transform .3s ease-in-out;
+}
+
+#nav.cache {
+    transform: translateY(-100%);
+}
+
+/* .nav-links {
+    display: flex;
+    gap: 100px;
+} */
+
+.nav-link,
+.nav-logo {
+    color: black;
+    transition: opacity 0.15s ease;
+    font-family: "Inter", sans-serif;
+}
+
+.nav-link:hover {
+    opacity: 0.6;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-logo img {
+    height: 70%;
+    width: auto;
+    object-fit: cover;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+
+
+/*  =============================
+    FOOTER
+    ============================= */
 footer {
     width: 100%;
     margin-top: 10rem;
