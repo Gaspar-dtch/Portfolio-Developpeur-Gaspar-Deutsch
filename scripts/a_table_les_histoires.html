@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaspar Deutsch • Développeur</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style_projets.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Librairie -->
+    <!-- lenis -->
+    <script src="https://unpkg.com/lenis@1.3.21/dist/lenis.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.17/dist/lenis.css">
+    <!-- parallaxJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <!-- gsap -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/CustomEase.min.js"></script>
+</head>
+
+<body>
+    <header id="nav">
+        <a href="../index.html#home" class="nav-link">HOME</a>
+        <a href="../index.html#about" class="nav-link">À PROPOS</a>
+        <a href="../index.html#home" class="nav-logo"><img src="../images/svg/logo_2.svg" alt="Logo Gaspar"></a>
+        <a href="../index.html#projets" class="nav-link">PROJETS</a>
+        <a href="../index.html#contact" class="nav-link">CONTACT</a>
+    </header>
+
+    <section class="project-detail">
+        <div class="project-layout">
+            <div class="header-nav">
+                <a href="../index.html#projets" class="btn">
+                    <div class="btn-content">
+                        <span class="back-btn-icon"></span>
+                        <span class="btn-text">RETOUR</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project-content">
+                <div class="project-header">
+                    <h1 class="title">TAKUMANGA</h1>
+                    <div class="meta">
+                        <img class="meta-img" src="../label.svg" alt="">
+                        <span class="meta-tags">Joomla</span>
+                        <!-- <span>Site vitrine dédié à la culture manga</span> -->
+                    </div>
+                </div>
+            </div>  
+
+            <div class="project-img">
+                <img class="affiche" src="../images/page_home_takumanga.png" alt="Page home de Takumanga">
+            </div>
+
+
+            <div class="content-section">
+                <div class="details-sidebar">
+                    <div class="info-block">
+                        <h2>RÔLE</h2>
+                        <span>Développeur Solo</span>
+                    </div>
+                    <div class="info-block">
+                        <h2>OUTILS</h2>
+                        <span>Joomla</span>
+                    </div>
+                    <div class="info-block">
+                        <h2>DURÉE</h2>
+                        <span>3 semaines (évolution continue)</span>
+                    </div>
+                    <div class="info-block">
+                        <h2>LIEN</h2>
+
+                        <a href="https://www.takumanga.fr" class="btn" target="_blank">
+                            <div class="btn-content">
+                                <span class="btn-text">Site web</span>
+                                <span class="btn-icon"></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-content">
+                    <!-- <h2>La Genèse</h2> -->
+                    <p class="presentation">Takumanga est né d'un projet scolaire (NSI en seconde) qui est devenu une
+                        passion. Initialement un simple site web pour apprendre, je l'ai transformé en une plateforme
+                        complète lors de mon stage de seconde en immersion chez un webmaster, qui m'a permis de
+                        concrétiser mes idées grâce à Joomla.
+                    </p>
+
+                    <!-- <h2>L'Architecture</h2> -->
+                    <!-- <ul class="presentation">
+                        <li>Actualité dynamique : Slider qui présente les mangas et animes de saison.</li>
+                        <li>Exploration : 3 catalogues distincts (Mangas, Animes, Films).</li>
+                        <li>Fiche détaillées : Données techniques (type, genre, auteur, éditeur, parution, tomes),
+                            synopsis et extraits visuels.</li>
+                    </ul> -->
+
+                    <p class="presentation">
+                        La page d'accueil met en avant l'actualité avec deux sliders présentant les mangas et les animes
+                        de la saison. Le site s'organise ensuite autour de plusieurs sections, dont trois catalogues
+                        distincts dédiés aux mangas, aux animes et aux films d'animation japonais, ainsi qu'un onglet
+                        regroupant mes coups de cœur, classés par genre. Les catalogues proposent une large sélection
+                        d'œuvres, accessibles via des fiches dédiées permettant de consulter chaque manga ou anime
+                        individuellement.
+                    </p>
+
+                    <p class="presentation">
+                        Chaque fiche regroupe de nombreuses informations comme le type, les genres, l'auteur, l'éditeur,
+                        l'année de parution ou encore le nombre de tomes. On y retrouve également un synopsis, des
+                        éléments sur l'univers de l'œuvre, une présentation des personnages principaux, ainsi qu'un
+                        aperçu visuel : des pages du manga pour les mangas, ou le générique d'introduction pour les
+                        animes. L'objectif était de proposer un site à la fois informatif et accessible, pensé pour les
+                        passionnés comme pour les curieux.
+                    </p>
+
+                    <!-- <h2>Résultats</h2> -->
+                    <p class="presentation">
+                        Takumanga m'a permis de progresser sur le long terme, de gagner en autonomie et de mieux
+                        comprendre comment faire évoluer un projet web personnel, de sa création jusqu'à sa mise en
+                        ligne. C'est un projet qui reflète autant mon intérêt pour le développement web que ma passion
+                        pour les mangas et la culture japonaise.</p>
+                </div>
+            </div>
+
+            <div class="gellery-section">
+                <div class="gallery-grid">
+                    <div class="gallery-item2">
+                        <img src="../images/tm_home.png" alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/tm_cate_manga.png" alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/tm_cate_film.png" alt="">
+                    </div>
+                    <div class="gallery-item2">
+                        <img src="../images/tm_detail_1.png" alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/tm_detail_2.png" alt="">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/tm_detail_3.png" alt="">
+                    </div>
+                    <div class="gallery-item2">
+                        <img src="../images/tm_cate_coup_coeur.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p class="footer-email">gaspar.deutsch@gmail.com</p>
+                <p class="footer-number">07 52 04 49 00</p>
+            </div>
+            <div class="footer-right">
+                <p class="footer-title">CONTACTS</p>
+                <div class="footer-links">
+                    <a href="https://www.instagram.com/gaspar_dtch/" class="link">Instagram<span
+                            class="footer-icon"></span></a>
+                    <a href="https://github.com/Gaspar-dtch" class="link">Github<span class="footer-icon"></span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../index.js"></script>
+</body>
+
+</html>
