@@ -173,6 +173,10 @@ body {
     background-color: #424242;
 }
 
+.bg-atlh {
+    background-color: #F8F4EA;
+}
+
 .card-info {
     display: flex;
     flex-direction: column;
@@ -186,6 +190,7 @@ body {
 .card-title {
     font-size: 1.4rem;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .about-tags {
