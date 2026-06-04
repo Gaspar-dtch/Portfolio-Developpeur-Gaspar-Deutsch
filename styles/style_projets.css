@@ -307,11 +307,11 @@ h2 {
 }
 
 @media (max-width: 1024px) {
-    .project-layout {
+    /* .project-layout {
         display: flex;
         flex-direction: column;
-        /* padding: 0 4rem; */
-    }
+        padding: 0 4rem;
+    } */
 
     .project-detail {
         padding: 4rem;
@@ -386,11 +386,11 @@ h2 {
 }
 
 @media (max-width: 900px) {
-    .project-layout {
+    /* .project-layout {
         display: flex;
         flex-direction: column;
-        /* padding: 0 1rem; */
-    }
+        padding: 0 1rem;
+    } */
 
     /* .project-detail {
         padding: 2rem;
@@ -408,7 +408,7 @@ h2 {
 
 
     .title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 0;
         text-transform: uppercase;
     }
