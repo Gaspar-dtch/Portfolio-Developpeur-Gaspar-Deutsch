@@ -310,7 +310,7 @@ h2 {
     .project-layout {
         display: flex;
         flex-direction: column;
-        padding: 0 4rem;
+        /* padding: 0 4rem; */
     }
 
     .project-detail {
@@ -389,7 +389,7 @@ h2 {
     .project-layout {
         display: flex;
         flex-direction: column;
-        padding: 0 1rem;
+        /* padding: 0 1rem; */
     }
 
     /* .project-detail {
@@ -408,7 +408,7 @@ h2 {
 
 
     .title {
-        font-size: 2rem;
+        font-size: 3rem;
         margin: 0;
         text-transform: uppercase;
     }
