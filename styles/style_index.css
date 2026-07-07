@@ -272,6 +272,53 @@ body {
     font-size: .8rem;
 }
 
+/* =========================== */
+/* AWARE BUTTON HOVER */
+/* .tag-projet {
+    position: relative;
+    display: block;
+    width: fit-content;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid #FFF;
+    color: #FFF;
+    border-radius: 50px;
+    background: transparent;
+    font-size: .8rem;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+    background-clip: padding-box;
+    z-index: 1;
+}
+
+.tag-projet span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50px;
+    background-color: #FFF;
+    -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.tag-projet:hover {
+    color: #131313;
+}
+
+.tag-projet:hover span {
+    width: 225%;
+    height: 562.5px;
+}
+
+.tag-projet:active {
+    background-color: #FFF;
+} */
+/* =========================== */
+
+
 .card-date {
     font-size: .8rem;
     opacity: .8;

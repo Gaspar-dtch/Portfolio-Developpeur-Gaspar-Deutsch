@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 2rem;
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(8px);
     z-index: 10;
@@ -28,13 +28,31 @@
 
 .nav-link,
 .nav-logo {
+    position: relative;
+    padding: 0 10px;
     color: black;
-    transition: opacity 0.15s ease;
     font-family: "Inter", sans-serif;
+    text-decoration: none;
 }
 
-.nav-link:hover {
-    opacity: 0.6;
+.nav-link:after {
+    content: "";
+    position: absolute;
+    /* background-color: #fadadd; */
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+
+/* .nav-link:hover{
+    opacity: .6;
+} */
+
+.nav-link:hover:after {
+    width: 100%;
 }
 
 .nav-logo {
