@@ -207,6 +207,7 @@ body {
     left: 29%;
     transform: rotate(51deg);
     z-index: -1;
+    /* animation: flotter 3s ease-in-out infinite alternate; */
 }
 
 #img-bg2 {
@@ -218,6 +219,31 @@ body {
     right: 10%;
     transform: rotate(-20deg);
     z-index: -1;
+    /* animation: balader 6s ease-in-out infinite alternate; */
+}
+
+@keyframes balader {
+    0% {
+        transform: translateY(0) rotate(-3deg);
+    }
+
+    50% {
+        transform: translateY(-15px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(-5px) rotate(3deg);
+    }
+}
+
+@keyframes flotter {
+    0% {
+        transform: translateY(0) rotate(-5deg);
+    }
+
+    100% {
+        transform: translateY(-7px) rotate(5deg);
+    }
 }
 
 /* #photo{
