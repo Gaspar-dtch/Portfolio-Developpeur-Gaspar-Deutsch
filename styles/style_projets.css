@@ -28,9 +28,8 @@ body {
 .project-layout {
     display: flex;
     flex-direction: column;
-    /* padding: 0 8rem; */
+    min-height: 100vh;
     padding: 2rem 8vw;
-    /* gap: 2rem; */
     font-family: "Inter", sans-serif;
 }
 

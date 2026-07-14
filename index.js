@@ -8,7 +8,7 @@
 
 // Lenis
 const lenis = new Lenis({
-    duration: .8,
+    duration: .7,
     easing: (t) => 1 - Math.pow(1 - t, 3),
     smoothWheel: true,
     smoothTouch: false,
@@ -25,7 +25,7 @@ requestAnimationFrame(raf);
 // Scroll header
 let dernierScroll = 0
 let dernierTemps = Date.now()
-const vitesseCap = 0.4
+const vitesseCap = 0.3
 const header = document.getElementById("nav")
 
 window.addEventListener("scroll", () => {
