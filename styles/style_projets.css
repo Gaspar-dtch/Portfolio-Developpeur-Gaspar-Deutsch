@@ -344,16 +344,6 @@ h2 {
 }
 
 @media (max-width: 1024px) {
-    /* .project-layout {
-        display: flex;
-        flex-direction: column;
-        padding: 0 4rem;
-    } */
-
-    .project-detail {
-        padding: 4rem;
-    }
-
     .content-section {
         grid-template-columns: 1fr;
     }
@@ -423,16 +413,6 @@ h2 {
 }
 
 @media (max-width: 900px) {
-    /* .project-layout {
-        display: flex;
-        flex-direction: column;
-        padding: 0 1rem;
-    } */
-
-    /* .project-detail {
-        padding: 2rem;
-    } */
-
     .details-sidebar {
         display: flex;
         flex-direction: column;
